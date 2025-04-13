@@ -1,6 +1,6 @@
 # Custom NeoVim
 
-#**By: Nicholas Fisher**  
+# By: Nicholas Fisher 
 
 ![image](https://github.com/user-attachments/assets/df423b19-2be3-48af-aa9b-661ccdba77b8)  
 
