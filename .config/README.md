@@ -1,9 +1,15 @@
 # Custom NeoVim
-**By: Nicholas Fisher**  
+
+#**By: Nicholas Fisher**  
+
 ![image](https://github.com/user-attachments/assets/df423b19-2be3-48af-aa9b-661ccdba77b8)  
+
 **Important Note: Setup Dot bot before vim.**  <br />
+
 **Important Note: If you want to see leader commands in this setup, press space in nvim to see the which keys.** <br />  
+
 **Run the dependencies.sh script to download dependencies for this custom Neovim.** <br />
+
 **Import Information:** <br />
 If plugins have not automatically installed do one of the following: <br />
 **`Mason Plugins`** <br />
