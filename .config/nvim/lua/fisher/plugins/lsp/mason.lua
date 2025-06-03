@@ -33,7 +33,7 @@ return {
 
     mason_lspconfig.setup({
       ensure_installed = {
-        "pyright", "gopls", "clangd", "html", "cssls", "tailwindcss",
+        "pyright", "clangd", "html", "cssls", "tailwindcss",
         "svelte", "graphql", "emmet_ls", "prismals", "jdtls", "intelephense"
       },
       automatic_installation = true,
