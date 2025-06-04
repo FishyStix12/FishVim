@@ -19,7 +19,6 @@ return {
     local treesitter = require("nvim-treesitter.configs")
     local dap = require("dap")
     local telescope = require("telescope")
-    local lspconfig = require("lspconfig")
 
     mason.setup({
       ui = {
@@ -38,16 +37,6 @@ return {
       },
       automatic_installation = true,
     })
-
-    -- Set up each LSP server manually
-    local servers = {
-      "pyright", "gopls", "clangd", "html", "cssls", "tailwindcss",
-      "svelte", "graphql", "emmet_ls", "prismals", "jdtls", "intelephense"
-    }
-
-    for _, server in ipairs(servers) do
-      lspconfig[server].setup({})
-    end
 
     mason_null_ls.setup({
       ensure_installed = {
